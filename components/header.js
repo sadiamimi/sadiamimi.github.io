@@ -22,7 +22,7 @@ class Header extends HTMLElement {
             <li class="nav-item mr-2">
               <a class="nav-link" href="/assets/CV/SadiaAfrose_CV.pdf">CV</a>
             </li>
-            <li class="nav-item mr-2">
+           <!-- <li class="nav-item mr-2">
               <a class="nav-link" href="/pages/experience.html">Experience</a>
             </li>
             <li class="nav-item mr-2">
@@ -39,7 +39,7 @@ class Header extends HTMLElement {
             </li>
             <li class="nav-item mr-2">
               <a class="nav-link" href="/pages/blogposts.html">Blogs</a>
-            </li>
+            </li> -->
           </ul>
         </div>
         </nav>
