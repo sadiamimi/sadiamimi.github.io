@@ -20,10 +20,10 @@ class Header extends HTMLElement {
               <a class="nav-link" href="/pages/education.html">Education</a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" href="/pages/education.html">CV</a>
+              <a class="nav-link" href="assets/CV/SadiaAfrose_CV.pdf">CV</a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" href="SadiaAfrose_CV.pdf">CV</a>
+              <a class="nav-link" href="/pages/experience.html">Experience</a>
             </li>
             <li class="nav-item mr-2">
               <a class="nav-link" href="/pages/skills.html">Skills</a>
