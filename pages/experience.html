@@ -27,7 +27,81 @@
 
     <div id="page-container">
         <div class="container mt-4">
-            <h5><b>__ Professional Experiences _____</b></h5>
+            <h5><b>__ Research Experience _____</b></h5>
+
+            <!-- research experience -->
+            <div class="mt-3 card">
+                <div class="card-body">
+                    <div class="row mt-2 mt-md-0">
+                        <div class="col-5 col-md-2">
+                            <img class="card-img-top" src="/assets/img/education/osu_logo.jpg" alt="Card image">
+                        </div>
+                        <div class="col-7 col-md-10">
+                            <h4 class="card-title mb-0 responsive-text"><a class="exp-affiliation"
+                                    href="https://cse.osu.edu/" target="_blank">The Ohio State University</a> </h4>
+                            <h6 class="card-subtitle- mb-0 responsive-text" style="font-size: large;">Graduate Research Fellow, Cosine Lab</h6>
+                            <h3 class="designation-lemos mt-1">Advisor: Prof. Kannan Athreya</h3>
+                            <h6 class="small-lemos mt-1">(Aug'25 - Present)</h6>
+                            <!-- Skills Section -->
+                            <div class="mt-3">
+                                <h6><b>Key Skills:</b></h6>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>5G NR PHY / O-RAN 7.2 Split</li>
+                                            <li>srsRAN, OCUDU, Open5GS</li>
+                                            <li>USRP SDRs, GNU Radio</li>
+                                            <li>POWDER Testbed</li>
+                                            <li>Amarisoft UE Simulator</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>Channel Estimation (SRS/CSI)</li>
+                                            <li>Physics-Guided ML, Digital Twins</li>
+                                            <li>Wi-Fi 7 (802.11be) Sensing</li>
+                                            <li>Over-the-Air Computation (AirComp)</li>
+                                            <li>PyTorch, Sionna RT</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="ml-0 mb-0">
+                                <button class="btn btn-blue py-0" type="button" data-toggle="collapse"
+                                    data-target="#collapseContent-0" aria-expanded="true"
+                                    aria-controls="collapseContent-0">
+                                    Read more...
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseContent-0" class="collapse">
+                            <div class="card-body  mb-0 pt-4 pb-0">
+                                <ul class="mb-0">
+                                    <li><b>Physics-Guided ML for 5G NR Uplink CSI Prediction</b></li>
+                                    <ul>
+                                        <li>Built a 5G NR PHY measurement pipeline that captures uplink SRS-based CSI on srsRAN and OCUDU (O-RAN 7.2 split) with USRP SDRs and GNU Radio, and set up end-to-end LTE and 5G NR test networks with COTS UEs and SDR-based eNB/gNB/UE.</li>
+                                        <li>Collected wideband 5G NR SRS/CSI datasets across indoor, lobby and rooftop environments on the POWDER testbed, and validated them against 3GPP channel models (EPA/EVA/ETU).</li>
+                                        <li>Developing a physics-guided, generalizable model that predicts full-band CSI from partial-band SRS, trained only on a physics-based digital twin of synthetic channels.</li>
+                                    </ul>
+                                    <li class="mt-2"><b>Wi-Fi 7 Wireless Sensing for Healthcare</b></li>
+                                    <ul>
+                                        <li>Building a Wi-Fi sensing system on HPE Aruba AP-755 Wi-Fi 7 (802.11be) access points that collects CSI from commercial devices on 2.4, 5 and 6 GHz at up to 160 MHz.</li>
+                                        <li>Deploying the system in a hospital study for contactless seizure detection, and designing deep learning models for CSI-based sensing of human activity and gestures.</li>
+                                    </ul>
+                                    <li class="mt-2"><b>Over-the-Air Federated Learning on a Real 5G Cellular Setup</b></li>
+                                    <ul>
+                                        <li>Designing a multi-UE over-the-air computation (AirComp) PHY layer on a sub-6 GHz 5G NR setup with SDRs and COTS UEs, so that UEs train locally and aggregate model updates over the air.</li>
+                                        <li>Developing OFDM synchronization and channel estimation that keep independently clocked UEs phase-coherent without a shared clock, including under mobility.</li>
+                                        <li>Evaluating airtime overhead and spectrum sharing with a live 5G cell using 3GPP and ray-traced channel simulations and automated hardware experiments.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="mt-5"><b>__ Professional Experience _____</b></h5>
 
             <!-- experience 1 -->
             <div class="mt-3 card">
@@ -41,8 +115,8 @@
                             <h4 class="card-title mb-0 responsive-text"><a class="exp-affiliation"
                                     href="https://www.robi.com.bd/en/corporate/company-profile" target="_blank">Robi Axiata PLC</a> </h4>
                             <h6 class="card-subtitle- mb-0 responsive-text" style="font-size: large;"><a
-                                    class="exp-affiliation" href="" target="_blank">Senior Associate, Radio Access Network Operations</a></h6>
-                            <h3 class="designation-lemos mt-1">Technology Division</h3>
+                                    class="exp-affiliation" href="" target="_blank">Senior Associate, Radio Access Network (RAN) Engineer</a></h6>
+                            <h3 class="designation-lemos mt-1">RAN Operations, Ericsson Network</h3>
                             <h6 class="small-lemos mt-1">(Aug'23 - July'25)</h6>
                              <!-- Skills Section -->
                             <div class="mt-3">
@@ -84,7 +158,13 @@
                             <div class="card-body  mb-0 pt-4 pb-0">
                                 <!-- Your expandable content goes here -->
                                 <ul class="mb-0">
-                                    <li><b>Key Responsibilities:</b> </li>
+                                    <li><b>Highlights:</b> </li>
+                                    <ul>
+        <li>Analyzed and optimized the performance of a live 2G (GSM), 3G (UMTS/WCDMA) and 4G LTE RAN, tracking RAN KPIs, tuning power, frequency and bandwidth parameters, and reallocating unused hardware and spectrum resources.</li>
+        <li>Deployed and integrated Massive MIMO systems and Ericsson Antenna Integrated Radios (AIR) to increase cell capacity and throughput, executing changes through Ericsson Network Manager (ENM) and WinFIOL.</li>
+        <li>Built Python-based network analysis and shell-script automation for routine RAN operations.</li>
+                                    </ul>
+                                    <li class="mt-2"><b>Key Responsibilities:</b> </li>
                                     <ul>
         <li>Troubleshoot & Analyze complex radio network issues to ensure high service availability, swiftly managing incidents and leading disaster recovery efforts.</li>
         <li>Design & Execute Optimization Configurations, adding resources and conducting rigorous consistency checks across network elements.</li>
